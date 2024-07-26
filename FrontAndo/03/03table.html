@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TABLE</title>
+    <style>
+
+    </style>
+</head>
+<body>
+    <h3>table태그</h3>
+    -행과 열 (그리드 형식 = 표구조 )의 구조를 제공해주는 기능 
+    - 특수 블럭레벨의 요소임 <br>
+    - 위아래 여백이 없으며, 임대영역이 부모태그의 100%, 가용영역은 컨텐츠너비 만큼이다<br>
+    - 자식, 자손 요소로는 thead, tbody, tr, caption, th, td태그등이 올 수 있다 <br><br>
+
+    <h3>thead 태그 tr태그 </h3>
+    -thead : 머릿말에 해당되는 태그를 묶어주는 기능 
+    -tr : 한 행을 나타내는 기능
+    -특수 블럭레벨 요소임 
+    -위 아래 여백이 없으며 , 부모태그의 100%를 인식한다 <br>
+    -margin은 적용되나 표현되질 못하며, padding은 적용할 수 없다 <br><br>
+
+    <h3>caption 태그</h3>
+    -표제목을 기술할 때 사용하는 태그<br>
+    -table태그안에 맨 처음 기술 해주는것이 좋다. <br>
+    <small>
+        (맨 마지막에 기술해도 알아서 맨위로, 센터정렬로 온다)
+    </small><br>
+    -특수 블럭레벨요소로, 위아래 여백이 없다 <br>
+    -table 태그가 아닌 다른 곳에 기술 되면 caption태그는 적용되지 않는다. 사라짐<br><br>
+
+    <h3>th(table heading), td(table description) 태그</h3>
+    -th : 표에서 열칸의 속성명을 기술하는 태그임 컬럼명 <br>
+    -td : 표에서 열칸의 값을 기술하는 태그임. <br>
+    -width, height, padding 값 조절 가능 margin불가능 <br>
+    블럭레벨 요소를 담을 수 있는 요소임 <br><br>
+    <hr><br>
+
+    <h2>테이블 태그 기본값</h2>
+    <table>
+        <tr>
+            <th>first name</th>
+            <th>last name</th>
+            <th>age</th>
+        </tr>
+        <tr>
+            <td>jill</td>
+            <td>smith</td>
+            <td>50</td>
+        </tr>
+        <tr>
+            <td>eve</td>
+            <td>jackson</td>
+            <td>94</td>
+        </tr>
+        <tr>
+            <td>john</td>
+            <td>doe</td>
+            <td>80</td>
+        </tr>
+    </table><br><br>
+
+    <h2>태이블 태그 width100%로 변경</h2>
+    <table width = "100%">
+        <tr>
+            <th>first name</th>
+            <th>last name</th>
+            <th>age</th>
+        </tr>
+        <tr>
+            <td>jill</td>
+            <td>smith</td>
+            <td>50</td>
+        </tr>
+        <tr>
+            <td>eve</td>
+            <td>jackson</td>
+            <td>94</td>
+        </tr>
+        <tr>
+            <td>john</td>
+            <td>doe</td>
+            <td>80</td>
+        </tr>
+    </table><br><br>
+    <br><br><br><br>
+
+    <!--테이블 태그의 형식: <table 속성명: "값", style = "속성명 값;"> 
+        <caption>표 제목</caption>
+        <thead><tr><th></tr></th></thead>
+        <tbody><tr><td></tr></td></tbody>
+        줄을 먼저 그리고 칸을 나누는 방식 테이블 row/ 테이블의 세부적인 자료
+        바둑판 모양입니다. 데이터가 깨지지 않기위해 영여
+        <caption>표 제목</caption>
+        <table>
+        <tr><th></tr></th>
+        <tr><td></tr></td>
+        </table>
+        줄을 먼저 그리고 칸을 나누는 방식 테이블 row/ 테이블의 세부적인 자료
+        스타일을 한꺼번에 묶을 수 있는것
+
+
+    </table>-->
+    <!-- <table>				
+        <tr>	<th>제목</th>	<th>제목</th>	<th>제목</th>	</tr>
+        <tr>	<td>내용</tr>td>	td내용	td내용	</tr>
+        <tr>	<td>내용	td내용	td내용	</tr>
+        <tr>	td내용	td내용	td내용	</tr>
+        </table>				 -->
+        
+</body>
+</html>

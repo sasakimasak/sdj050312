@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>table element</title>
+    <!--테두리 선을 이용을 해서 만들기 td에 대해서 스타일이 적용되는것입니다. 
+    페딩옷을 입히고, 글자의 보터를 검은색으로 합니다. 
+    
+    -->
+    <style>
+        table {width: 100px;}
+        table , th, td{border: 1px solid black;} 
+        th, td{ padding: 10px;}
+    </style>
+</head>
+<body>
+    <figure>
+        <table>
+            <tr><th>브라우저</th>
+            <th>제조업체</th>
+            <th>다운로드</th></tr>
+
+            <!--내가 감싸고 있는 여부에 대해서 말을 할때 쓰이는것입니다. 
+            안에 감싸고 있는 자식태그들중에서 수평정렬을 해도 된다고 한다. 
+            1.인라인 레벨요소//b라는 테이블이 가운데 정렬이 되어있다는것입니다. 
+            2.figure은 별도로 따로 쓸 수 있고 figure caption 블록레벨이면서 위아래 좌우 여백이 없음 .
+            3. 테이블 밑에 작성을 하도록 했음. 
+            4.
+            -->
+        <tr>
+            <td style = "text-align: center;"><b>크롬(chrom)</b></td>
+            <td>google</td>
+            <td>https://www.google.com/chrome/</td>
+        </tr>
+        <tr>
+            <td style = "text-align:center;"><b>파이어 폭스</b></td>
+            <td>mozilla</td>
+            <td>https://mozilla.org/ko/firefox</td>
+        </tr>
+        <tr>
+            <td style = "text-align: center;"><b>엣지 edge</b></td>
+            <td>microsoft</td>
+            <td>https://www.microsoft.com/kor/windows/microsoft-edge</td>
+        </tr>
+
+
+
+        </table>
+        <figcaption>
+            국내에서 자주 사용하는 <b>모던 브라우저</b>
+        </figcaption>
+
+    </figure>
+    <br><br><br><br><br><br><br><br>
+    
+
+
+</body>
+</html>

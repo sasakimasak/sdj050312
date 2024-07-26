@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>표 만들기</title>
+    <style>
+        table{width: 100%;}
+        td{font-weight: bold;} 
+        table, td{border: 1px solid gray;}
+    </style>
+    <!--내부 스타일 시트에만 적용해주세요 width랑 배경색만 가능함. -->
+</head>
+<body>
+    <table>
+        <caption>컬러 그룹 연습</caption>
+            <colgroup>
+                <col span = "2" width = "20%">
+                <col span = "2" style = "background-color: blue;">
+            </colgroup>
+            <!--컬러에 대한 그룹을 지었다는것을 확인하기 위해 그룹을 지음-->
+            <tr>
+                <td>1</td>
+                <td>2</td>
+                <td>3</td>
+                <td>4</td>
+            </tr>
+            <tr>
+                <td>5</td>
+                <td>6</td>
+                <td>7</td>
+                <td>8</td>
+            </tr>
+    
+    </table>
+    
+</body>
+</html>

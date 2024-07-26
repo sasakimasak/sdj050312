@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>table element</title>
+    <!--style sheet의 속성을 부여하는것을  뜻 합니다. -->
+    <style>
+        /*겹칩선 한 줄로 표시 반드시 테이블 테그에 사용할것 */
+        table{
+        border-collapse: collapse ;
+        }
+        /*테두리선 스타일 설정*/
+        table,th, td{
+            border: 5px solid #2f5850;
+        }
+        /*셀 안의 여백설정 사방 넓혀주세요 컨텐츠의 크기를 늘려주는것.*/
+        th, td{
+            padding: 50px;
+        }
+    </style>
+</head>
+<body>
+    <h2>Table with Border</h2>
+    <p>Use the css boder property to add a border to the table</p>
+    <!--<table>-->
+        <!--style속성 : 시작태그안에 기술된 스타일 속성을 인라인 스타일 시트라고 합니다.
+        적용범위 : 해당 태그만 가능함.margin의 방향기준은 top 기준입니다. margin도 그렇고 
+        윗쪽, 오른쪽, 바닥, 왼쪽 4개의 값 설정// 위 아래 , 좌우 2개의 값을 받는다.
+        내부 스타일 시트 : css스타일이 html의 style 태그로 들어와있는 방식
+        적용범위 : 해당페이지내에서 모두 적용이 가능하다는것입니다.
+        *
+        css 스타일 기술 형식 (문법 = Syntax) 셀렉터(= 스타일을 지정할 태그)
+        - 인라인스타일 시트(inline stylesheet) : html의 시작태그 안에 style,속성으로 
+        기술하는 방식 
+
+        - 내부 스타일 시트(internal stylesheet) : html에 <style> 태그로 기술하는 방식
+        형식 :  셀렉터(=스타일을 지정할 태그) {
+        속성명 : 값 ; 속성명:값 ; }
+        적용범위: <style> 태그가 기술된 해당 웹페이지(웹 문서 = 웹파일)내에서만 가능
+
+        -외부 스타일 시트(external stylesheet){
+        css파일로 별로도 생성하여 기술하는 방식 
+        형식 : 셀렉터(=스타일을 지정할 태그){속성명 : 값; 속성명 : 값}
+        적용범위 : 해당 css 파일을 참조하는 모든 웹페이지(웹문서 = 웹파일)
+            }
+        
+    {속성명 : 값 ; 속성명 : 값 ;..  } -->
+        <table style="width: 50%;margin:10px 10;">
+            <tr>
+                <th>First name</th>
+                <th>Last name</th>
+                <th>Age</th>
+            </tr>
+            <tr>
+                <td>Eve</td>
+                <td>jackson</td>
+                <td>94</td>
+            </tr>
+            <tr>
+                <td>john</td>
+                <td>doe</td>
+                <td>80</td>
+            </tr>
+
+
+        </table>
+        
+<br><br><br><br><br><br>
+</body>
+</html>
