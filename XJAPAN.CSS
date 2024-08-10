@@ -1,0 +1,83 @@
+body{
+    margin: 0;
+    line-height: 1.5em;
+    background-color: #333;
+}
+a{
+    text-decoration: none;
+}
+
+.gallery{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    height: 100vh;
+}
+.gallery li {
+    border-right: 5px solid #000;
+    transition: 0.6s;
+    flex: 1;
+    size: contain;
+ 
+}
+.gallery li :last-child{
+    border-right: none;
+}
+.gallery li:nth-child(1){
+    background: url(./xJAPN.IMG/30d1ec26945714f8cf13e4ff6af9e392.jpg)
+    no-repeat center center;
+    width: 500px;
+    
+}
+.gallery li:nth-child(2){
+    background: url(./xJAPN.IMG/67e82d1d1e50616a8610771f3263ab9a.jpg)
+    no-repeat center center;
+    
+}
+.gallery li:nth-child(3){
+    background: url(./xJAPN.IMG/b80d51821e241867059fbe5f462ee921.jpg)
+    no-repeat center center;
+}
+.gallery li:nth-child(4){
+    background: url(./xJAPN.IMG/daf1693504b16015f184e1e078f34176.jpg)
+    no-repeat center center;
+}
+.gallery li:nth-child(5){
+    background: url(./xJAPN.IMG/f61ad30e7ac63f595ec9a9c06095bf82.jpg)
+    no-repeat center center;
+}
+
+.gallery:hover li {
+    flex:1;
+}
+.gallery li:hover {
+    flex: 3;
+    filter: grayscale(1);
+}
+
+.content {
+    position: absolute;
+    background-color: #000;
+    color: #fff;
+    width: 500px;
+    text-align: center;
+    bottom: 0;
+    height: 200px;
+    bottom: -250px;
+   transition: 0.3s;
+}
+.sns a {
+    color: #333;
+}
+.gallery li:hover .content{
+    bottom: 0;
+    transition-delay: 0.3s;
+}
+
+
+
+
+
+
+
