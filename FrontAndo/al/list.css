@@ -1,0 +1,47 @@
+body{
+
+
+}
+
+.dropdown{
+width: 200px;
+border: solid 1px;
+border-radius: 10px;
+background-color: rgb(217, 58, 69);
+display: block;
+}
+.dropdown-submenu{
+
+    width: 10px;
+    height: 300px;
+    display: none;
+}
+
+.dropdown-submenu a{
+
+width: 100px;
+height: 100px;
+
+text-decoration: none;
+color: black;
+
+}
+
+.dropdown-btn{
+    width: 40px;
+    left: 30px;
+    border-radius: 12px;
+    border: solid 0px;
+    position: relative;
+    top: -2px;
+    text-decoration: none;
+    text-align: center;
+    
+}
+.dropdown:hover .dropdown-submenu {
+    display: block;
+}
+.dropdown-submenu a:hover{
+  
+    background-color: wheat;
+}
