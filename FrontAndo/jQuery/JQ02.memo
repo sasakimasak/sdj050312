@@ -1,0 +1,28 @@
+// 제이쿼리 필수 핵심 이론 
+// $('선택자').함수(function(){
+//     $('선택요소').메서드();
+// });
+// 매소드 (effect) 마우스를 허버하면 기능이 작동이 되는 형식
+
+// ★.show() 선택요소 보이기 
+// ★.hide() 선택요소 감추기
+// ★.slideToggle() 선택요소 서서히 보이기/감추기 
+// ★.slideDown() 선택요소 서서히 보이기 
+// ★.slideUp() 선택요소 서서히 감추기 
+// ★.fadeln()
+// ★.fadeOut()
+// ★.stop()
+
+// 매소드 클래스 제어 
+// addClass()
+// removeClass()
+// toggleClass()
+
+// 메소드 요소 탐색 
+// .children()
+// .parent()
+// .sibiling()
+// .find()
+// .next()
+// .prev()
+
