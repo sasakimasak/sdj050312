@@ -1,0 +1,84 @@
+.board-pan{
+    position: relative;
+    left: 400px;
+    background-color: #000;
+    box-shadow: 3px 4px 0 0 rgb(28, 27, 27);
+    width: 220px;
+    height: 300px;
+    margin: 0;
+    text-align: center;
+    border-radius: 10px;
+}
+input[id="screen"]{
+    background-color: blanchedalmond;
+    position: relative;
+    top:20px;
+    border-radius: 20px;
+    height: 50px;
+    margin: 0;
+    border: none;
+}
+
+
+.fnc, .fnc1{
+    cursor: pointer;
+    box-shadow: 2px 2px 0px 0px rgb(144, 2, 2);
+    background-color: rgb(237, 61, 61);
+    display: inline-block;
+    position: relative;
+    margin: 10px;
+    top :40px;
+    left: 5px;
+    border: none;
+    border-radius: 20px;
+    width: 70px;
+    height: 30px;
+    text-align: center;   
+}
+
+
+.num{
+    cursor: pointer;
+    box-shadow: 2px 2px 0px 0px rgb(74, 74, 74);
+    position: relative;
+    margin: 1px;
+    top:40px;
+    left: 24px;
+    border-radius: 20px;
+    border: none;
+    width: 35px;
+    height: 30px;
+    cursor: pointer;
+    background-color: blanchedalmond;
+    transition: 0.5s;
+}
+.op{
+    box-shadow: 2px 2px 0px 0px rgb(61, 7, 7);
+    background-color: red;
+    position: relative;
+    border-radius: 20px;
+    border: none;
+    width: 50px;
+    height: 30px;
+    top:40px;
+    left: 30px;
+    cursor: pointer;
+}
+
+.num,.op,.fnc,.fnc1{
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+
+
+.num:active{
+    transform: scale(0.9);
+}
+
+
+.op:active,
+.fnc:active,
+.fnc1:active{
+    transform: scale(0.5);
+}
